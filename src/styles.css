@@ -1,3 +1,5 @@
+@import '../node_modules/angular-archwizard/styles/archwizard.css';
+
 :root{
     --btn-primary: #636be0;
     --btn-primary-hover: #313cdc;
@@ -275,3 +277,4 @@ a:hover{
     background-color: var(--so-breadcrumb-bg);
     border-radius: var(--so-breadcrumb-border-radius);
 }
+
