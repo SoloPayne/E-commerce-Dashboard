@@ -5,6 +5,7 @@ import { BodyComponent } from './body/body.component';
 import { HeaderComponent } from './header/header.component';
 import { ProductCatalogComponent } from './product-catalog/product-catalog.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
+import {ProductWizardComponent} from "./product-wizard/product-wizard.component";
 
 const routes: Routes = [
 {  path: '', redirectTo: 'dashboard', pathMatch: 'full'
@@ -17,6 +18,10 @@ const routes: Routes = [
 {  path: 'product',
   component: ProductCatalogComponent
 },
+
+  {  path: 'display',
+    component: ProductWizardComponent
+  },
 ];
 
 @NgModule({

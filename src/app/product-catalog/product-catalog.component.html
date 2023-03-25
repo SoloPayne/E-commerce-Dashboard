@@ -20,7 +20,6 @@
               </ul>
             </div>
           </section>
-
      <main>
 
   <div class="album py-5">
@@ -28,14 +27,11 @@
 
       <div class="row g-3">
         <div class="col-lg-3 col-md-6"  *ngFor="let product of products$">
-          <div class="card product-card">
+          <div class="card product-card" [routerLink]="product.route">
            <div class="card-img-top p-2">
-            <span class="card-like material-symbols-outlined">
-favorite
-</span>
-<img [src]="product.imageUrl" alt="th01" class="bd-placeholder-img" >
+            <span class="card-like material-symbols-outlined">favorite</span><img [src]="product.imageUrl" alt="th01" class="bd-placeholder-img" >
            </div>
-            
+
             <div class="card-body">
               <p class="card-text">{{product.description}}</p>
               <p class="card-product-name p-0 m-0">{{product.name}}</p>
@@ -43,11 +39,7 @@ favorite
                 <div class="price-tag mt-3">
                 <p class="card-product-price d-inline-block" >{{product.price}}</p> <span class="card-product-price-decimal p-0 m-0 d-inline-block">99</span>
               </div>
-                <button class="btn btn-primary"><span class="material-symbols-outlined">
-add
-</span><span class="material-symbols-outlined">
-shopping_cart
-</span></button>
+                <button class="btn btn-primary"><span class="material-symbols-outlined">add</span><span class="material-symbols-outlined">shopping_cart</span></button>
               </div>
             </div>
           </div>

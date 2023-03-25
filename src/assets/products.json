@@ -3,7 +3,8 @@
         "name": "Italian Pasta",
         "description": "Packets, Cereals.",
         "price": "$2.",
-        "imageUrl": "assets/img/th01.jpg"
+        "imageUrl": "assets/img/th01.jpg",
+        "route": "/display"
     },
  {
         "name": "Coconut, Indonesia (piece)",

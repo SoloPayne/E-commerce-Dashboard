@@ -22,7 +22,7 @@
     --so-sidenav-color: #2a2a2a;
     --so-sidenav-color-hover: #fff;
     --so-sidenav-list-color-hover: #636be070;
-    
+
 
     /* Body */
     --so-body-font-size: 1rem;
@@ -101,11 +101,11 @@ body{
 /* Card */
 .card{
     border: 0;
-    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px; 
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
     border-width: 1px;
     border-color: rgba(0, 0, 0, 0.085);
     border-radius: calc(0.4375rem - 1px);
-    background: transparent;
+    background: var(--so-body-bg);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -175,7 +175,7 @@ body{
     justify-content: center;
     background-color: var(--btn-primary);
     border-color: var(--btn-primary);
-    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px; 
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
 }
 .product-card:hover .btn-primary:hover{
    background-color: var(--btn-primary-hover);
