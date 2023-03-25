@@ -166,9 +166,6 @@ body{
     font-size: 12px;
 }
 
-.btn-primary{
-    display: none;
-}
 
 .product-card:hover .btn-primary{
     padding: 4px .5rem;
@@ -277,4 +274,13 @@ a:hover{
     background-color: var(--so-breadcrumb-bg);
     border-radius: var(--so-breadcrumb-border-radius);
 }
+
+/* Custom Buttons */
+.btn-custom{
+    background-color: var(--btn-primary);
+    color: var(--so-body-bg);
+    box-shadow: 0 8px 15px -12px var(--btn-primary);
+    margin: .5rem .5rem .5rem 0;
+}
+
 

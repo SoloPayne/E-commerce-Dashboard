@@ -16,12 +16,12 @@ export const SidenavData = [
     },
                 {
         icon: 'fa-solid fa-lemon',
-        description: 'Fruits and Vegetables',
+        description: 'Fruits & Vegetables',
         route: 'product'
     },
                     {
         icon: 'fa-solid fa-cheese',
-        description: 'Dairy and Eggs',
+        description: 'Dairy & Eggs',
         route: 'product'
     },
 ]

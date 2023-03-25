@@ -66,10 +66,6 @@ color:var(--so-sidenav-color);
     text-align: center;
 }
 
-.sidenav-link-text{
-    margin-left: 1.5rem;
-}
-
 .bottom{
     position: absolute;
     bottom: 3rem;
