@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { DataService } from './data.service';
+import { SidenavData } from './sidenav/sidenav-data';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'headersdienav';
+
+    collapsed?: boolean;
+
+  navData = SidenavData;
+
+  constructor(private dataService: DataService) { }
+
+  ngOnInit(): void {
+    this.dataService.data$.subscribe(value => this.collapsed = value);
+  }
 }

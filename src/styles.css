@@ -1,1 +1,277 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+    --btn-primary: #636be0;
+    --btn-primary-hover: #313cdc;
+    --so-primary: #313cdc;
+    --so-nav-link-padding-x: 1.25rem;
+    --so-nav-link-padding-y: 0.75rem;
+    --so-nav-link-font-size: 14px;
+    --so-nav-link-font-weight: normal;
+    --so-nav-link-color: #4b566b;
+    --so-nav-link-hover-color: var(--so-primary);
+    --so-nav-link-disabled-color: #7d879c;
+        --so-nav-tabs-border-width: 1px;
+    --so-nav-tabs-border-color: #e3e9ef;
+    --so-nav-tabs-border-radius: 0;
+    --so-nav-tabs-link-hover-border-color: transparent;
+    --so-nav-tabs-link-active-color: var(--so-primary);
+    --so-nav-tabs-link-active-bg: transparent;
+    --so-nav-tabs-link-active-border-color: var(--so-primary);
+
+    /* Sidebar */
+    --so-sidenav-background-color: #ffffff;
+    --so-sidenav-color: #2a2a2a;
+    --so-sidenav-color-hover: #fff;
+    --so-sidenav-list-color-hover: #636be070;
+    
+
+    /* Body */
+    --so-body-font-size: 1rem;
+    --so-body-font-weight: 400;
+    --so-body-line-height: 1.5;
+    --so-body-color: #4b566b;
+    --so-body-bg: #fff;
+    --so-border-width: 1px;
+    --so-border-style: solid;
+    --so-border-color: #e3e9ef;
+    --so-border-color-translucent: rgba(0, 0, 0, 0.175);
+    --so-nav-tabs-link-active-color: var(--so-primary);
+    --so-nav-tabs-link-active-bg: transparent;
+    --so-nav-tabs-link-active-border-color: var(--so-primary);
+
+    /* Pagination */
+    --so-pagination-padding-x: 0.75rem;
+    --so-pagination-padding-y: 0.3125rem;
+    --so-pagination-font-size: 0.9375rem;
+    --so-pagination-color: #4b566b;
+    --so-pagination-bg: transparent;
+    --so-pagination-border-width: 1px;
+    --so-pagination-border-color: transparent;
+    --so-pagination-border-radius: 0.3125rem;
+    --so-pagination-hover-color: #4b566b;
+    --so-pagination-hover-bg: #f3f5f9;
+    --so-pagination-hover-border-color: #f3f5f9;
+    --so-pagination-focus-color: var(--so-link-hover-color);
+    --so-pagination-focus-bg: #f3f5f9;
+    --so-pagination-focus-box-shadow: 0 0 0 0 rgba(254, 105, 106, 0.25);
+    --so-pagination-active-color: #fff;
+    --so-pagination-active-bg: var(--so-primary);
+    --so-pagination-active-border-color: transparent;
+    --so-pagination-disabled-color: #7d879c;
+    --so-pagination-disabled-bg: #fff;
+    --so-pagination-disabled-border-color: #e3e9ef;
+
+      /* Breadcrumb */
+        --so-breadcrumb-padding-x: 0;
+    --so-breadcrumb-padding-y: 0;
+    --so-breadcrumb-margin-bottom: 0;
+    --so-breadcrumb-font-size: 0.8125rem;
+    --so-breadcrumb-bg: ;
+    --so-breadcrumb-border-radius: ;
+    --so-breadcrumb-divider-color: #a6acb7;
+    --so-breadcrumb-item-padding-x: 0.5rem;
+    --so-breadcrumb-item-active-color: #7d879c;
+}
+
+.pagination {
+    margin-bottom: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.pagination {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+
+
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: #F6F9FC;
+}
+
+
+/* Card */
+.card{
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px; 
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.085);
+    border-radius: calc(0.4375rem - 1px);
+    background: transparent;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    cursor: pointer;
+}
+.product-card{
+        transition: all .15s ease-in-out;
+}
+.card-img-top{
+    width: 100%;
+    height: 200px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bd-placeholder-img{
+    width: 80%;
+    height: 90%;
+    object-fit: contain;
+}
+
+.card-body{
+    background: #fff;
+}
+
+.card-text{
+    font-size: 12px;
+    transition: color .25s ease-in-out;
+    color: #7d879c;
+    text-decoration: none !important;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.card-product-name{
+    font-size: 12px;
+    font-weight: 600;
+    transition: color .25s ease-in-out;
+    color: #242424;
+     cursor: pointer;
+}
+.card-text:hover, .card-product-name:hover{
+     color: var(--btn-primary-hover);
+}
+.price-tag, .card-product-price {
+    color: #4e54c8;
+}
+
+.card-product-price-decimal{
+    font-size: 12px;
+}
+
+.btn-primary{
+    display: none;
+}
+
+.product-card:hover .btn-primary{
+    padding: 4px .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--btn-primary);
+    border-color: var(--btn-primary);
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px; 
+}
+.product-card:hover .btn-primary:hover{
+   background-color: var(--btn-primary-hover);
+    border-color: var(--btn-primary-hover);
+}
+.card-like{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 14px;
+    border-radius: 30px;
+    background-color: #636be030;
+    padding: .3rem;
+    cursor: pointer;
+    color: #3a3a3a;
+    transition: all .5s ease;
+}
+
+.card-like:hover{
+    background-color: #636be070;
+    color: #fff;
+
+}
+
+/* navigation  */
+.nav-tabs {
+    border-bottom: var(--so-nav-tabs-border-width) solid var(--so-nav-tabs-border-color) !important;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.nav-tabs .nav-link {
+    position: relative;
+    border: 0;
+}
+
+.nav-tabs .nav-link {
+    margin-bottom: calc(-1*var(--so-nav-tabs-border-width));
+    background: none;
+    border: var(--so-nav-tabs-border-width) solid rgba(0,0,0,0);
+    border-top-left-radius: var(--so-nav-tabs-border-radius);
+    border-top-right-radius: var(--so-nav-tabs-border-radius);
+}
+.nav-link {
+    display: block;
+    padding: var(--so-nav-link-padding-y) var(--so-nav-link-padding-x);
+    font-size: var(--so-nav-link-font-size);
+    font-weight: var(--so-nav-link-font-weight);
+    color: var(--so-nav-link-color);
+    transition: color .25s ease-in-out,background-color .25s ease-in-out,box-shadow .25s ease-in-out,border-color .25s ease-in-out;
+}
+
+.nav-tabs .nav-link::before {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 1.25rem;
+    width: calc(100% - (1.25rem * 2));
+    height: 1px;
+    transition: color .25s ease-in-out,background-color .25s ease-in-out,box-shadow .25s ease-in-out,border-color .25s ease-in-out;
+    background-color: rgba(0,0,0,0);
+    content: "";
+}
+
+.nav-link:not(.dropdown-toggle).active {
+    pointer-events: none;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: var(--so-nav-tabs-link-active-color);
+    background-color: var(--so-nav-tabs-link-active-bg);
+    border-color: var(--so-nav-tabs-link-active-border-color);
+}
+
+a{
+    text-decoration: none;
+    color: var(--so-primary);
+}
+
+a:hover{
+    color: var(--btn-primary-hover);
+}
+
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    padding: var(--so-breadcrumb-padding-y) var(--so-breadcrumb-padding-x);
+    margin-bottom: var(--so-breadcrumb-margin-bottom);
+    font-size: var(--so-breadcrumb-font-size);
+    list-style: none;
+    background-color: var(--so-breadcrumb-bg);
+    border-radius: var(--so-breadcrumb-border-radius);
+}

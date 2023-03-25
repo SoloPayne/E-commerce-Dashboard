@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Italian Pasta",
+        "description": "Packets, Cereals.",
+        "price": "$2.",
+        "imageUrl": "assets/img/th01.jpg"
+    },
+ {
+        "name": "Coconut, Indonesia (piece)",
+        "description": "Fruits and Vegetables",
+        "price": "$2.",
+        "imageUrl": "assets/img/01.jpg"
+    },
+     {
+        "name": "Soft Creme Cheese (200g)",
+        "description": "Dairy and Eggs",
+        "price": "$3.",
+        "imageUrl": "assets/img/02.jpg"
+    },
+     {
+        "name": "Pepsi Soda Can (.33ml)",
+        "description": "Soft Drinks and Juice",
+        "price": "$1.",
+        "imageUrl": "assets/img/03.jpg"
+    },
+     {
+        "name": "Fresh Orange, Spain (1kg)",
+        "description": "Fruits and Vegetables",
+        "price": "$1.",
+        "imageUrl": "assets/img/04.jpg"
+    },
+     {
+        "name": "Moisture Body Lotion (250ml)",
+        "description": "Personal hygiene",
+        "price": "$2.",
+        "imageUrl": "assets/img/05.jpg"
+    },
+     {
+        "name": "Nut Chocolate Paste (750g)",
+        "description": "Snacks, Sweets and Chips",
+        "price": "$2.",
+        "imageUrl": "assets/img/06.jpg"
+    },
+     {
+        "name": "Mozzarella Mini Cheese",
+        "description": "Dairy and Eggs",
+        "price": "$4.",
+        "imageUrl": "assets/img/07.jpg"
+    },
+     {
+        "name": "Mozzarella Cheese",
+        "description": "Dairy and Eggs",
+        "price": "$4.",
+        "imageUrl": "assets/img/08.jpg"
+    },
+     {
+        "name": "Rice Cakes with Chia Seeds",
+        "description": "Packets, Cereals.",
+        "price": "$1.",
+        "imageUrl": "assets/img/16.jpg"
+    },
+         {
+        "name": "Rice Cakes with Chia Seeds",
+        "description": "Packets, Cereals.",
+        "price": "$1.",
+        "imageUrl": "assets/img/16.jpg"
+    },
+         {
+        "name": "Mozzarella Mini Cheese",
+        "description": "Dairy and Eggs",
+        "price": "$4.",
+        "imageUrl": "assets/img/07.jpg"
+    }
+]
