@@ -1,0 +1,14 @@
+.title-display-card{
+    background: var(--btn-primary);
+    color: var(--white);
+    height:310px;
+    overflow:hidden;
+}
+
+.img{
+    margin-top: -65px;
+}
+
+.card-heading-text{
+        padding: 5rem 2rem;
+}
