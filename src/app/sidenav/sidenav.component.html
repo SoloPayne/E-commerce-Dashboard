@@ -8,7 +8,9 @@
     <ul class="sidenav-nav mb-auto">
         <li class="sidenav-nav-item" *ngFor="let data of navData">
             <a class="sidenav-nav-link" routerLink='{{data.route}}' routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                <i class="sidenav-link-icon" ngClass="{{data.icon}}"></i>
+                <span class="material-symbols-outlined sidenav-link-icon">
+{{data.icon}}
+</span>
                     <span class="sidenav-link-text" *ngIf="!collapsed">{{data.description}}</span>
             </a>
         </li>

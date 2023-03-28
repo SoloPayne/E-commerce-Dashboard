@@ -8,19 +8,614 @@
           </nav>
  
           <main>
-          <div class="card title-display-card">
+          <div class="card title-display-card text-sm-center text-lg-start">
            <div class="row">
-            <div class="col-6">
-              <div class="card-heading-text">
+            <div class="col-lg-6 p-5 d-flex justify-content-center">
+              <div class="card-heading-text ps-lg-5">
                  <h2 class="h2">Fresh Foods a Click Away</h2>
                  <p class="sub-title">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid, ipsa!
                  </p>
+                 <h6 class="h6 mt-5 mb-3">On the go? Try our mobile app</h6>
+                 <div class="row justify-content-center justify-content-lg-start ps-md-2"><a class="btn-market btn-apple me-md-2 me-0 mb-2 col-auto" href="#" role="button"><span class="btn-market-subtitle">Download on the</span><span class="btn-market-title">App Store</span></a><a class="btn-market btn-google mb-2 col-auto" href="#" role="button"><span class="btn-market-subtitle">Download on the</span><span class="btn-market-title">Google Play</span></a></div>
               </div>
+              
             </div>
-            <div class="col-6 py-3 px-1">
+            <div class="col-lg-6  d-flex justify-content-center">
               <img class="img img-fluid" src="/assets/img/couple-with-shopping-cart.png" alt="couple shopping">
             </div>
            </div>
           </div>
           </main>
+          <section class="pt-5 mt-5">
+            <h2 class="h2 text-center mb-5">How it works</h2>
+            <div class="row">
+              <div class="col-xl pe-xl-0 ">
+                <div class="card p-4 info-card">
+                  <div class="row">
+                    <div class="col-auto d-flex align-items-center ps-4 pe-0">
+                      <div class="display-3 fw-normal opacity-25 me-4">01</div>
+                    </div>
+                     <div class="col">
+                     <img class="d-block my-2" src="assets/img/01.png" width="72" alt="Order online">
+                     <p class="mb-3 pt-1 text-muted">Order your favorite products online.</p>
+                     </div>
+                  </div>
+                </div>
+              </div>
+               <div class="col-xl p-xl-0">
+                <div class="card  p-4  info-card">
+                  <div class="row">
+                    <div class="col-auto d-flex align-items-center ps-4 pe-0">
+                      <div class="display-3 fw-normal opacity-25 me-4">02</div>
+                    </div>
+                     <div class="col">
+                     <img class="d-block my-2" src="assets/img/02.png" width="72" alt="Order online">
+                     <p class="mb-3 pt-1 text-muted">We collect the products from your list.</p>
+                     </div>
+                  </div>
+                </div>
+              </div>
+             <div class="col-xl ps-xl-0">
+                <div class="card p-4  info-card">
+                  <div class="row">
+                    <div class="col-auto d-flex align-items-center ps-4 pe-0">
+                      <div class="display-3 fw-normal opacity-25 me-4">03</div>
+                    </div>
+                     <div class="col">
+                     <img class="d-block my-2" src="assets/img/03.png" width="72" alt="Order online">
+                     <p class="mb-3 pt-1 text-muted">We deliver to your doorstep.</p>
+                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="discounted" class="my-5 pt-5">
+            <div class="d-flex">
+              <h2 class="h2">Discounted Products</h2>
+              <button class="btn btn-sm btn-outline-primary ms-auto small d-flex align-items-center" [routerLink]="'/product'">More products<span class="material-symbols-outlined">
+              navigate_next
+              </span></button>
+            </div>
+
+            <!-- Carousel -->
+           <div class="carousel">
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      
+  <div class="album">
+    <div class="container">
+
+      <div class="row g-3">
+        <div class="col-lg-3 col-md-6">
+          <div class="card product-card">
+           <div class="card-img-top p-2">
+            <span class="card-like material-symbols-outlined">favorite</span><img src="assets/img/01.jpg" alt="th01" class="bd-placeholder-img" >
+           </div>
+
+            <div class="card-body">
+              <p class="card-text">Packets, Cereals.</p>
+              <p class="card-product-name p-0 m-0">Coconut, Indonesia (piece)</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="price-tag mt-3">
+                <p class="card-product-price d-inline-block" >$2.</p> <span class="card-product-price-decimal p-0 m-0 d-inline-block">99</span>
+              </div>
+                <button class="btn btn-primary"><span class="material-symbols-outlined">add</span><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-lg-3 col-md-6">
+          <div class="card product-card">
+           <div class="card-img-top p-2">
+            <span class="card-like material-symbols-outlined">favorite</span><img src="assets/img/01.jpg" alt="th01" class="bd-placeholder-img" >
+           </div>
+
+            <div class="card-body">
+              <p class="card-text">Packets, Cereals.</p>
+              <p class="card-product-name p-0 m-0">Coconut, Indonesia (piece)</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="price-tag mt-3">
+                <p class="card-product-price d-inline-block" >$2.</p> <span class="card-product-price-decimal p-0 m-0 d-inline-block">99</span>
+              </div>
+                <button class="btn btn-primary"><span class="material-symbols-outlined">add</span><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-lg-3 col-md-6">
+          <div class="card product-card">
+           <div class="card-img-top p-2">
+            <span class="card-like material-symbols-outlined">favorite</span><img src="assets/img/01.jpg" alt="th01" class="bd-placeholder-img" >
+           </div>
+
+            <div class="card-body">
+              <p class="card-text">Packets, Cereals.</p>
+              <p class="card-product-name p-0 m-0">Coconut, Indonesia (piece)</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="price-tag mt-3">
+                <p class="card-product-price d-inline-block" >$2.</p> <span class="card-product-price-decimal p-0 m-0 d-inline-block">99</span>
+              </div>
+                <button class="btn btn-primary"><span class="material-symbols-outlined">add</span><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-lg-3 col-md-6">
+          <div class="card product-card">
+           <div class="card-img-top p-2">
+            <span class="card-like material-symbols-outlined">favorite</span><img src="assets/img/01.jpg" alt="th01" class="bd-placeholder-img" >
+           </div>
+
+            <div class="card-body">
+              <p class="card-text">Packets, Cereals.</p>
+              <p class="card-product-name p-0 m-0">Coconut, Indonesia (piece)</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="price-tag mt-3">
+                <p class="card-product-price d-inline-block" >$2.</p> <span class="card-product-price-decimal p-0 m-0 d-inline-block">99</span>
+              </div>
+                <button class="btn btn-primary"><span class="material-symbols-outlined">add</span><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <div class="album">
+    <div class="container">
+
+      <div class="row g-3">
+        <div class="col-lg-3 col-md-6">
+          <div class="card product-card">
+           <div class="card-img-top p-2">
+            <span class="card-like material-symbols-outlined">favorite</span><img src="assets/img/01.jpg" alt="th01" class="bd-placeholder-img" >
+           </div>
+
+            <div class="card-body">
+              <p class="card-text">Packets, Cereals.</p>
+              <p class="card-product-name p-0 m-0">Coconut, Indonesia (piece)</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="price-tag mt-3">
+                <p class="card-product-price d-inline-block" >$2.</p> <span class="card-product-price-decimal p-0 m-0 d-inline-block">99</span>
+              </div>
+                <button class="btn btn-primary"><span class="material-symbols-outlined">add</span><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-lg-3 col-md-6">
+          <div class="card product-card">
+           <div class="card-img-top p-2">
+            <span class="card-like material-symbols-outlined">favorite</span><img src="assets/img/01.jpg" alt="th01" class="bd-placeholder-img" >
+           </div>
+
+            <div class="card-body">
+              <p class="card-text">Packets, Cereals.</p>
+              <p class="card-product-name p-0 m-0">Coconut, Indonesia (piece)</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="price-tag mt-3">
+                <p class="card-product-price d-inline-block" >$2.</p> <span class="card-product-price-decimal p-0 m-0 d-inline-block">99</span>
+              </div>
+                <button class="btn btn-primary"><span class="material-symbols-outlined">add</span><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-lg-3 col-md-6">
+          <div class="card product-card">
+           <div class="card-img-top p-2">
+            <span class="card-like material-symbols-outlined">favorite</span><img src="assets/img/01.jpg" alt="th01" class="bd-placeholder-img" >
+           </div>
+
+            <div class="card-body">
+              <p class="card-text">Packets, Cereals.</p>
+              <p class="card-product-name p-0 m-0">Coconut, Indonesia (piece)</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="price-tag mt-3">
+                <p class="card-product-price d-inline-block" >$2.</p> <span class="card-product-price-decimal p-0 m-0 d-inline-block">99</span>
+              </div>
+                <button class="btn btn-primary"><span class="material-symbols-outlined">add</span><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-lg-3 col-md-6">
+          <div class="card product-card">
+           <div class="card-img-top p-2">
+            <span class="card-like material-symbols-outlined">favorite</span><img src="assets/img/01.jpg" alt="th01" class="bd-placeholder-img" >
+           </div>
+
+            <div class="card-body">
+              <p class="card-text">Packets, Cereals.</p>
+              <p class="card-product-name p-0 m-0">Coconut, Indonesia (piece)</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="price-tag mt-3">
+                <p class="card-product-price d-inline-block" >$2.</p> <span class="card-product-price-decimal p-0 m-0 d-inline-block">99</span>
+              </div>
+                <button class="btn btn-primary"><span class="material-symbols-outlined">add</span><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+    <div class="carousel-item">
+      <div class="album">
+    <div class="container">
+
+      <div class="row g-3">
+        <div class="col-lg-3 col-md-6">
+          <div class="card product-card">
+           <div class="card-img-top p-2">
+            <span class="card-like material-symbols-outlined">favorite</span><img src="assets/img/01.jpg" alt="th01" class="bd-placeholder-img" >
+           </div>
+
+            <div class="card-body">
+              <p class="card-text">Packets, Cereals.</p>
+              <p class="card-product-name p-0 m-0">Coconut, Indonesia (piece)</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="price-tag mt-3">
+                <p class="card-product-price d-inline-block" >$2.</p> <span class="card-product-price-decimal p-0 m-0 d-inline-block">99</span>
+              </div>
+                <button class="btn btn-primary"><span class="material-symbols-outlined">add</span><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-lg-3 col-md-6">
+          <div class="card product-card">
+           <div class="card-img-top p-2">
+            <span class="card-like material-symbols-outlined">favorite</span><img src="assets/img/01.jpg" alt="th01" class="bd-placeholder-img" >
+           </div>
+
+            <div class="card-body">
+              <p class="card-text">Packets, Cereals.</p>
+              <p class="card-product-name p-0 m-0">Coconut, Indonesia (piece)</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="price-tag mt-3">
+                <p class="card-product-price d-inline-block" >$2.</p> <span class="card-product-price-decimal p-0 m-0 d-inline-block">99</span>
+              </div>
+                <button class="btn btn-primary"><span class="material-symbols-outlined">add</span><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-lg-3 col-md-6">
+          <div class="card product-card">
+           <div class="card-img-top p-2">
+            <span class="card-like material-symbols-outlined">favorite</span><img src="assets/img/01.jpg" alt="th01" class="bd-placeholder-img" >
+           </div>
+
+            <div class="card-body">
+              <p class="card-text">Packets, Cereals.</p>
+              <p class="card-product-name p-0 m-0">Coconut, Indonesia (piece)</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="price-tag mt-3">
+                <p class="card-product-price d-inline-block" >$2.</p> <span class="card-product-price-decimal p-0 m-0 d-inline-block">99</span>
+              </div>
+                <button class="btn btn-primary"><span class="material-symbols-outlined">add</span><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-lg-3 col-md-6">
+          <div class="card product-card">
+           <div class="card-img-top p-2">
+            <span class="card-like material-symbols-outlined">favorite</span><img src="assets/img/01.jpg" alt="th01" class="bd-placeholder-img" >
+           </div>
+
+            <div class="card-body">
+              <p class="card-text">Packets, Cereals.</p>
+              <p class="card-product-name p-0 m-0">Coconut, Indonesia (piece)</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="price-tag mt-3">
+                <p class="card-product-price d-inline-block" >$2.</p> <span class="card-product-price-decimal p-0 m-0 d-inline-block">99</span>
+              </div>
+                <button class="btn btn-primary"><span class="material-symbols-outlined">add</span><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+           </div>
+          </section>
+                  <section id="discounted" class="my-5 pt-5">
+            <div class="d-flex">
+              <h2 class="h2">Best Sellers</h2>
+              <button class="btn btn-sm btn-outline-primary ms-auto small d-flex align-items-center" [routerLink]="'/product'">More products<span class="material-symbols-outlined">
+              navigate_next
+              </span></button>
+            </div>
+
+            <!-- Carousel -->
+           <div class="carousel">
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      
+  <div class="album">
+    <div class="container">
+
+      <div class="row g-3">
+        <div class="col-lg-3 col-md-6">
+          <div class="card product-card">
+           <div class="card-img-top p-2">
+            <span class="card-like material-symbols-outlined">favorite</span><img src="assets/img/01.jpg" alt="th01" class="bd-placeholder-img" >
+           </div>
+
+            <div class="card-body">
+              <p class="card-text">Packets, Cereals.</p>
+              <p class="card-product-name p-0 m-0">Coconut, Indonesia (piece)</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="price-tag mt-3">
+                <p class="card-product-price d-inline-block" >$2.</p> <span class="card-product-price-decimal p-0 m-0 d-inline-block">99</span>
+              </div>
+                <button class="btn btn-primary"><span class="material-symbols-outlined">add</span><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-lg-3 col-md-6">
+          <div class="card product-card">
+           <div class="card-img-top p-2">
+            <span class="card-like material-symbols-outlined">favorite</span><img src="assets/img/01.jpg" alt="th01" class="bd-placeholder-img" >
+           </div>
+
+            <div class="card-body">
+              <p class="card-text">Packets, Cereals.</p>
+              <p class="card-product-name p-0 m-0">Coconut, Indonesia (piece)</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="price-tag mt-3">
+                <p class="card-product-price d-inline-block" >$2.</p> <span class="card-product-price-decimal p-0 m-0 d-inline-block">99</span>
+              </div>
+                <button class="btn btn-primary"><span class="material-symbols-outlined">add</span><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-lg-3 col-md-6">
+          <div class="card product-card">
+           <div class="card-img-top p-2">
+            <span class="card-like material-symbols-outlined">favorite</span><img src="assets/img/01.jpg" alt="th01" class="bd-placeholder-img" >
+           </div>
+
+            <div class="card-body">
+              <p class="card-text">Packets, Cereals.</p>
+              <p class="card-product-name p-0 m-0">Coconut, Indonesia (piece)</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="price-tag mt-3">
+                <p class="card-product-price d-inline-block" >$2.</p> <span class="card-product-price-decimal p-0 m-0 d-inline-block">99</span>
+              </div>
+                <button class="btn btn-primary"><span class="material-symbols-outlined">add</span><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-lg-3 col-md-6">
+          <div class="card product-card">
+           <div class="card-img-top p-2">
+            <span class="card-like material-symbols-outlined">favorite</span><img src="assets/img/01.jpg" alt="th01" class="bd-placeholder-img" >
+           </div>
+
+            <div class="card-body">
+              <p class="card-text">Packets, Cereals.</p>
+              <p class="card-product-name p-0 m-0">Coconut, Indonesia (piece)</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="price-tag mt-3">
+                <p class="card-product-price d-inline-block" >$2.</p> <span class="card-product-price-decimal p-0 m-0 d-inline-block">99</span>
+              </div>
+                <button class="btn btn-primary"><span class="material-symbols-outlined">add</span><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <div class="album">
+    <div class="container">
+
+      <div class="row g-3">
+        <div class="col-lg-3 col-md-6">
+          <div class="card product-card">
+           <div class="card-img-top p-2">
+            <span class="card-like material-symbols-outlined">favorite</span><img src="assets/img/01.jpg" alt="th01" class="bd-placeholder-img" >
+           </div>
+
+            <div class="card-body">
+              <p class="card-text">Packets, Cereals.</p>
+              <p class="card-product-name p-0 m-0">Coconut, Indonesia (piece)</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="price-tag mt-3">
+                <p class="card-product-price d-inline-block" >$2.</p> <span class="card-product-price-decimal p-0 m-0 d-inline-block">99</span>
+              </div>
+                <button class="btn btn-primary"><span class="material-symbols-outlined">add</span><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-lg-3 col-md-6">
+          <div class="card product-card">
+           <div class="card-img-top p-2">
+            <span class="card-like material-symbols-outlined">favorite</span><img src="assets/img/01.jpg" alt="th01" class="bd-placeholder-img" >
+           </div>
+
+            <div class="card-body">
+              <p class="card-text">Packets, Cereals.</p>
+              <p class="card-product-name p-0 m-0">Coconut, Indonesia (piece)</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="price-tag mt-3">
+                <p class="card-product-price d-inline-block" >$2.</p> <span class="card-product-price-decimal p-0 m-0 d-inline-block">99</span>
+              </div>
+                <button class="btn btn-primary"><span class="material-symbols-outlined">add</span><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-lg-3 col-md-6">
+          <div class="card product-card">
+           <div class="card-img-top p-2">
+            <span class="card-like material-symbols-outlined">favorite</span><img src="assets/img/01.jpg" alt="th01" class="bd-placeholder-img" >
+           </div>
+
+            <div class="card-body">
+              <p class="card-text">Packets, Cereals.</p>
+              <p class="card-product-name p-0 m-0">Coconut, Indonesia (piece)</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="price-tag mt-3">
+                <p class="card-product-price d-inline-block" >$2.</p> <span class="card-product-price-decimal p-0 m-0 d-inline-block">99</span>
+              </div>
+                <button class="btn btn-primary"><span class="material-symbols-outlined">add</span><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-lg-3 col-md-6">
+          <div class="card product-card">
+           <div class="card-img-top p-2">
+            <span class="card-like material-symbols-outlined">favorite</span><img src="assets/img/01.jpg" alt="th01" class="bd-placeholder-img" >
+           </div>
+
+            <div class="card-body">
+              <p class="card-text">Packets, Cereals.</p>
+              <p class="card-product-name p-0 m-0">Coconut, Indonesia (piece)</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="price-tag mt-3">
+                <p class="card-product-price d-inline-block" >$2.</p> <span class="card-product-price-decimal p-0 m-0 d-inline-block">99</span>
+              </div>
+                <button class="btn btn-primary"><span class="material-symbols-outlined">add</span><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+    <div class="carousel-item">
+      <div class="album">
+    <div class="container">
+
+      <div class="row g-3">
+        <div class="col-lg-3 col-md-6">
+          <div class="card product-card">
+           <div class="card-img-top p-2">
+            <span class="card-like material-symbols-outlined">favorite</span><img src="assets/img/01.jpg" alt="th01" class="bd-placeholder-img" >
+           </div>
+
+            <div class="card-body">
+              <p class="card-text">Packets, Cereals.</p>
+              <p class="card-product-name p-0 m-0">Coconut, Indonesia (piece)</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="price-tag mt-3">
+                <p class="card-product-price d-inline-block" >$2.</p> <span class="card-product-price-decimal p-0 m-0 d-inline-block">99</span>
+              </div>
+                <button class="btn btn-primary"><span class="material-symbols-outlined">add</span><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-lg-3 col-md-6">
+          <div class="card product-card">
+           <div class="card-img-top p-2">
+            <span class="card-like material-symbols-outlined">favorite</span><img src="assets/img/01.jpg" alt="th01" class="bd-placeholder-img" >
+           </div>
+
+            <div class="card-body">
+              <p class="card-text">Packets, Cereals.</p>
+              <p class="card-product-name p-0 m-0">Coconut, Indonesia (piece)</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="price-tag mt-3">
+                <p class="card-product-price d-inline-block" >$2.</p> <span class="card-product-price-decimal p-0 m-0 d-inline-block">99</span>
+              </div>
+                <button class="btn btn-primary"><span class="material-symbols-outlined">add</span><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-lg-3 col-md-6">
+          <div class="card product-card">
+           <div class="card-img-top p-2">
+            <span class="card-like material-symbols-outlined">favorite</span><img src="assets/img/01.jpg" alt="th01" class="bd-placeholder-img" >
+           </div>
+
+            <div class="card-body">
+              <p class="card-text">Packets, Cereals.</p>
+              <p class="card-product-name p-0 m-0">Coconut, Indonesia (piece)</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="price-tag mt-3">
+                <p class="card-product-price d-inline-block" >$2.</p> <span class="card-product-price-decimal p-0 m-0 d-inline-block">99</span>
+              </div>
+                <button class="btn btn-primary"><span class="material-symbols-outlined">add</span><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-lg-3 col-md-6">
+          <div class="card product-card">
+           <div class="card-img-top p-2">
+            <span class="card-like material-symbols-outlined">favorite</span><img src="assets/img/01.jpg" alt="th01" class="bd-placeholder-img" >
+           </div>
+
+            <div class="card-body">
+              <p class="card-text">Packets, Cereals.</p>
+              <p class="card-product-name p-0 m-0">Coconut, Indonesia (piece)</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="price-tag mt-3">
+                <p class="card-product-price d-inline-block" >$2.</p> <span class="card-product-price-decimal p-0 m-0 d-inline-block">99</span>
+              </div>
+                <button class="btn btn-primary"><span class="material-symbols-outlined">add</span><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+           </div>
+          </section>
+
+          

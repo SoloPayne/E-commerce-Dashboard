@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { take } from 'rxjs';
+import { DataService } from '../data.service';
 
 @Component({
   selector: 'app-body',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BodyComponent implements OnInit {
 
-  constructor() { }
+  products$?: any ;
+
+  constructor(private dataService: DataService) { }
 
   ngOnInit(): void {
+    this.dataService.getProducts().subscribe(res => {
+      this.products$ = res;
+    })
   }
 
 }

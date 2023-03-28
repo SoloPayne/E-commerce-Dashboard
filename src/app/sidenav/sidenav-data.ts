@@ -1,26 +1,26 @@
 export const SidenavData = [
     {
-        icon: 'fa-solid fa-home',
+        icon: 'house',
         description: 'Home',
         route: 'dashboard'
     },
         {
-        icon: 'fa-solid fa-box-open',
+        icon: 'deployed_code',
         description: 'Products',
         route: 'product'
     },
             {
-        icon: 'fa-solid fa-bread-slice',
+        icon: 'breakfast_dining',
         description: 'Bakery',
         route: 'product'
     },
                 {
-        icon: 'fa-solid fa-lemon',
+        icon: 'nutrition',
         description: 'Fruits & Vegetables',
         route: 'product'
     },
                     {
-        icon: 'fa-solid fa-cheese',
+        icon: 'egg',
         description: 'Dairy & Eggs',
         route: 'product'
     },
